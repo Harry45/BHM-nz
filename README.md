@@ -2,9 +2,9 @@
 
 Bayesian Hierarchical Modelling of Redshift Distributions
 
-[BL-2016](https://github.com/Harry45/BHM-nz/tree/main/BL-2016) contains the
+[BL-2016](https://github.com/Harry45/BHM-nz/tree/main/reference/BL-2016) contains the
 original implementation of the Bayesian Hierarchical Model by Boris and
-[KiDS-1000](https://github.com/Harry45/BHM-nz/tree/main/KiDS-1000) contains the
+[KiDS-1000](https://github.com/Harry45/BHM-nz/tree/main/reference/KiDS-1000) contains the
 original KiDS-1000 likelihood function.
 
 The main goal of this project is to infer the tomographic redshift distribution
