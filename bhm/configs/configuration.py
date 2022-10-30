@@ -17,7 +17,7 @@ def get_config():
 
     # flux
     config.flux = flux = ml_collections.ConfigDict()
-    config.flux.names = [f'FLUX_GAAP_{b}' for b in config.band]
-    config.flux.err_names = [f'FLUXERR_GAAP_{b}' for b in config.band]
+    flux.names = [f'FLUX_GAAP_{b}' for b in config.band]
+    flux.err_names = [f'FLUXERR_GAAP_{b}' for b in config.band]
 
     return config
