@@ -26,7 +26,7 @@ def kde_fitting(samples: np.ndarray, bandwidth: float) -> KernelDensity:
     """
 
     kde = KernelDensity(bandwidth=bandwidth, kernel='gaussian')
-    kde.fit(samples)
+    kde.fit(samples[:, None])
 
     # to add cross validation step here
     return kde
