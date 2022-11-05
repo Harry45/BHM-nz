@@ -10,6 +10,7 @@ import numpy as np
 from sklearn.neighbors import KernelDensity
 
 from configuration import config
+import utils.helpers as hp
 
 CONFIG = config()
 
@@ -54,12 +55,6 @@ def stack_fitting(redshifts: np.ndarray, save: bool, bandwidth: float = 0.02, ng
     tomo_3 = redshifts[(redshifts > CONFIG.redshift.bounds[2][0]) & (redshifts <= CONFIG.redshift.bounds[2][1])]
     tomo_4 = redshifts[(redshifts > CONFIG.redshift.bounds[3][0]) & (redshifts <= CONFIG.redshift.bounds[3][1])]
     tomo_5 = redshifts[(redshifts > CONFIG.redshift.bounds[4][0]) & (redshifts <= CONFIG.redshift.bounds[4][1])]
-
-    print(tomo_1.shape)
-    print(tomo_2.shape)
-    print(tomo_3.shape)
-    print(tomo_4.shape)
-    print(tomo_5.shape)
 
     kde_1 = kde_fitting(tomo_1[:, None], bandwidth)
     kde_2 = kde_fitting(tomo_2[:, None], bandwidth)
