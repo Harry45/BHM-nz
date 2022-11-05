@@ -35,7 +35,7 @@ def cleaning(catalogue: fits, save: bool, **kwargs) -> dict:
 
     if 'ngalaxies' in kwargs:
         ngalaxies = kwargs.pop('ngalaxies')
-        indices = random.sample(len(data), ngalaxies)
+        indices = random.sample(range(len(data)), ngalaxies)
         data = data[indices]
 
     # important columns in the catalogue
