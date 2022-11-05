@@ -5,10 +5,11 @@ The data is downloaded from [here](https://kids.strw.leidenuniv.nl/DR4/data_file
 The catalogue contains a total of 21,262,011 sources, and is presented as a single 16GB FITS table. For more information on the format of the data, see this [webpage](https://kids.strw.leidenuniv.nl/DR4/KiDS-1000_shearcatalogue.php).
 
 ## To Do
-- Script to create a random set of $N$ galaxies.
-- Redshift stacking.
-- Kernel density estimation.
+- (Done) Script to create a random set of $N$ galaxies.
+- (Done) Redshift stacking.
+- (Done) Kernel density estimation.
 - Script to run the KiDS-1000 likelihood.
+- Script to plot the lensing kernel for different redshift distributions
 
 <br/>
 
