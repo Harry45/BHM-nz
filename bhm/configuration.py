@@ -36,4 +36,13 @@ def config():
     config.nmeta = len(config.meta_cols)
     config.nband = len(config.band)
 
+    # redshift
+    config.redshift = redshift = ml_collections.ConfigDict()
+    redshift.bounds = [(0.1, 0.3),
+                       (0.3, 0.5),
+                       (0.5, 0.7),
+                       (0.7, 0.9),
+                       (0.9, 1.2)]
+    redshift.range = [0.0, 2.0]
+
     return config
