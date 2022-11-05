@@ -9,7 +9,9 @@ The catalogue contains a total of 21,262,011 sources, and is presented as a sing
 - Redshift stacking.
 - Kernel density estimation.
 - Script to run the KiDS-1000 likelihood.
+
 <br/>
+
 - Plot the different templates.
 - Plot the different filters.
 - Understand Boris' notebook.
