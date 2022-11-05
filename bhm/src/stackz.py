@@ -54,6 +54,7 @@ def stack_fitting(redshifts: np.ndarray, save: bool, bandwidth: float = 0.02, ng
     tomo_5 = redshifts[(redshifts > CONFIG.redshift.bounds[4][0]) & (redshifts <= CONFIG.redshift.bounds[4][1])]
 
     if ngalaxies is not None:
+        print('fitting here')
         tomo_1 = tomo_1[0: ngalaxies]
         tomo_2 = tomo_2[0: ngalaxies]
         tomo_3 = tomo_3[0: ngalaxies]
