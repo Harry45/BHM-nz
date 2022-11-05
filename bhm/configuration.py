@@ -22,8 +22,8 @@ def config():
 
     # magnitudes
     config.mag = mag = ml_collections.ConfigDict()
-    mag.value_col = [f'MAG_GAAP_{b}' for b in band]
-    mag.err_col = [f'MAGERR_GAAP_{b}' for b in band]
+    mag.value_col = [f'MAG_GAAP_{b}' for b in config.band]
+    mag.err_col = [f'MAGERR_GAAP_{b}' for b in config.band]
 
     # columns related to BPZ
     config.bpz_cols = ['Z_B', 'M_0', 'Z_ML', 'Z_B_MIN', 'Z_B_MAX']
