@@ -11,6 +11,7 @@ import random
 import pandas as pd
 import numpy as np
 from astropy.io import fits
+from hurry.filesize import size
 
 from configuration import config
 import utils.helpers as hp
@@ -25,7 +26,8 @@ def get_size_mb(dataframe: pd.DataFrame, name: str):
         dataframe (pd.DataFrame): the pandas dataframe
         name (str): name of the dataframe
     """
-    print(f'Size of {name} dataframe {sys.getsizeof(dataframe)/1024**2:.2f} MB')
+    filesize = size(sys.getsizeof(dataframe))
+    print(f'Size of {name} dataframe {filesize}')
 
 
 def cleaning(catalogue: fits, save: bool, **kwargs) -> dict:
@@ -78,7 +80,7 @@ def cleaning(catalogue: fits, save: bool, **kwargs) -> dict:
         hp.pickle_save(df_flux, folder, 'flux')
         hp.pickle_save(df_flux_err, folder, 'flux_err')
         hp.pickle_save(df_mag, folder, 'mag')
-        hp.pickle_save(df_mag_err, 'mag_err')
-        hp.pickle_save(df_bpz, 'bpz')
-        hp.pickle_save(df_meta, 'meta')
+        hp.pickle_save(df_mag_err, folder, 'mag_err')
+        hp.pickle_save(df_bpz, folder, 'bpz')
+        hp.pickle_save(df_meta, folder, 'meta')
     return dictionary
