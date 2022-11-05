@@ -26,7 +26,7 @@ def kde_fitting(samples: np.ndarray, bandwidth: float) -> KernelDensity:
     """
 
     kde = KernelDensity(bandwidth=bandwidth, kernel='gaussian')
-    kde.fit(samples[:, None])
+    kde.fit(samples)
 
     # to add cross validation step here
     return kde
@@ -55,11 +55,11 @@ def stack_fitting(redshifts: np.ndarray, save: bool, bandwidth: float = 0.02, ng
     tomo_4 = redshifts[(redshifts > CONFIG.redshift.bounds[3][0]) & (redshifts <= CONFIG.redshift.bounds[3][1])]
     tomo_5 = redshifts[(redshifts > CONFIG.redshift.bounds[4][0]) & (redshifts <= CONFIG.redshift.bounds[4][1])]
 
-    kde_1 = kde_fitting(tomo_1, bandwidth)
-    kde_2 = kde_fitting(tomo_2, bandwidth)
-    kde_3 = kde_fitting(tomo_3, bandwidth)
-    kde_4 = kde_fitting(tomo_4, bandwidth)
-    kde_5 = kde_fitting(tomo_5, bandwidth)
+    kde_1 = kde_fitting(tomo_1[:, None], bandwidth)
+    kde_2 = kde_fitting(tomo_2[:, None], bandwidth)
+    kde_3 = kde_fitting(tomo_3[:, None], bandwidth)
+    kde_4 = kde_fitting(tomo_4[:, None], bandwidth)
+    kde_5 = kde_fitting(tomo_5[:, None], bandwidth)
 
     if save:
         os.makedirs('stacking', exist_ok=True)
