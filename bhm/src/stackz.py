@@ -46,18 +46,14 @@ def stack_fitting(redshifts: np.ndarray, save: bool, bandwidth: float = 0.02, ng
         dict: the fitted KDEs for each tomographic bin.
     """
 
+    if ngalaxies is not None:
+        redshifts = redshifts[0: ngalaxies]
+
     tomo_1 = redshifts[(redshifts > CONFIG.redshift.bounds[0][0]) & (redshifts <= CONFIG.redshift.bounds[0][1])]
     tomo_2 = redshifts[(redshifts > CONFIG.redshift.bounds[1][0]) & (redshifts <= CONFIG.redshift.bounds[1][1])]
     tomo_3 = redshifts[(redshifts > CONFIG.redshift.bounds[2][0]) & (redshifts <= CONFIG.redshift.bounds[2][1])]
     tomo_4 = redshifts[(redshifts > CONFIG.redshift.bounds[3][0]) & (redshifts <= CONFIG.redshift.bounds[3][1])]
     tomo_5 = redshifts[(redshifts > CONFIG.redshift.bounds[4][0]) & (redshifts <= CONFIG.redshift.bounds[4][1])]
-
-    if ngalaxies is not None:
-        tomo_1 = tomo_1[0: ngalaxies]
-        tomo_2 = tomo_2[0: ngalaxies]
-        tomo_3 = tomo_3[0: ngalaxies]
-        tomo_4 = tomo_4[0: ngalaxies]
-        tomo_5 = tomo_5[0: ngalaxies]
 
     kde_1 = kde_fitting(tomo_1[:, None], bandwidth)
     kde_2 = kde_fitting(tomo_2[:, None], bandwidth)
