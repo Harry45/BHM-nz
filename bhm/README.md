@@ -9,7 +9,7 @@ The catalogue contains a total of 21,262,011 sources, and is presented as a sing
 - (Done) Redshift stacking.
 - (Done) Kernel density estimation.
 - Script to run the KiDS-1000 likelihood.
-- Plot the lensing kernel for different redshift distributions.
+- Plot the lensing kernel for different redshift distributions (should be smooth as a function of comoving distance).
 - Plot the different templates.
 - Plot the different filters.
 
