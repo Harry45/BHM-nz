@@ -56,8 +56,8 @@ def pickle_save(file: list, folder: str, fname: str) -> None:
 
     # use compressed format to store data
     path = os.path.join(folder, fname)
-    with open(path + ".pkl", "wb") as f:
-        pickle.dump(file, f)
+    with open(path + ".pkl", "wb") as dummy:
+        pickle.dump(file, dummy)
 
 
 def pickle_load(folder: str, fname: str) -> pd.DataFrame:
@@ -69,6 +69,6 @@ def pickle_load(folder: str, fname: str) -> pd.DataFrame:
         pd.DataFrame: a pandas dataframe
     """
     path = os.path.join(folder, fname)
-    with open(path + ".pkl", "rb") as f:
-        file = pickle.load(f)
+    with open(path + ".pkl", "rb") as dummy:
+        file = pickle.load(dummy)
     return file

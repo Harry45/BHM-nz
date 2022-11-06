@@ -9,14 +9,14 @@ The catalogue contains a total of 21,262,011 sources, and is presented as a sing
 - (Done) Redshift stacking.
 - (Done) Kernel density estimation.
 - Script to run the KiDS-1000 likelihood.
-- Script to plot the lensing kernel for different redshift distributions
+- Plot the lensing kernel for different redshift distributions.
+- Plot the different templates.
+- Plot the different filters.
 
 <br/>
 
-- Plot the different templates.
-- Plot the different filters.
 - Understand Boris' notebook.
-- Think about how to do tomography $n(z)$. Do we have a good technique for this yet?
+- Think about how to do tomography $n_{i}(z)$. Do we have a good technique for this yet?
 
 ### Reference Papers (BHM)
 - [Benitez 2000](https://iopscience.iop.org/article/10.1086/308947)
