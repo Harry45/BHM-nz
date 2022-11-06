@@ -32,9 +32,10 @@ def kde_fitting(samples: np.ndarray, bandwidth: float) -> KernelDensity:
     return kde
 
 
-def stack_fitting(redshifts: np.ndarray, save: bool, bandwidth: float = 0.02, ngalaxies: int = None) -> dict:
-    """Takes in the redshifts from the catalogue and split it into tomographic bins. Also performs a Kernel Density Estimate
-    of the samples within each bin and store them in the stacking/ folder.
+def stack_fitting(redshifts: np.ndarray, save: bool, bandwidth: float = 0.02,
+                  ngalaxies: int = None) -> dict:
+    """Takes in the redshifts from the catalogue and split it into tomographic bins. Also performs
+    a Kernel Density Estimate of the samples within each bin and store them in the stacking/ folder.
 
     Args:
         redshifts (np.ndarray): the redshifts from the catalogue.
@@ -73,7 +74,8 @@ def stack_fitting(redshifts: np.ndarray, save: bool, bandwidth: float = 0.02, ng
 
 
 def stack_predictions(redshifts: np.ndarray, bandwidth: float, save: bool, fname: str) -> dict:
-    """Calculates the n(z) via the stacking method for a given set of redshifts (for example the KiDS-1000 mid-redshifts)
+    """Calculates the n(z) via the stacking method for a given set of redshifts (for example the
+    KiDS-1000 mid-redshifts)
 
     Args:
         redshifts (np.ndarray): the redshifts.
