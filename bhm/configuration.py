@@ -5,23 +5,29 @@ Code: The main configuration file for the project.
 Project: Inferring the tomographic redshift distribution of the KiDS-1000
 catalogue.
 """
-import ml_collections
+
+from ml_collections.config_dict import ConfigDict
 
 
-def config():
+def get_config() -> ConfigDict:
+    """The main configuration file for processing and generating the n(z) for KiDS-1000.
 
-    config = ml_collections.ConfigDict()
+    Returns:
+        ConfigDict: all configurations.
+    """
+
+    config = ConfigDict()
 
     # bands
     config.band = ['u', 'g', 'r', 'i', 'Z', 'Y', 'J', 'H', 'Ks']
 
     # flux
-    config.flux = flux = ml_collections.ConfigDict()
+    config.flux = flux = ConfigDict()
     flux.value_cols = [f'FLUX_GAAP_{b}' for b in config.band]
     flux.err_cols = [f'FLUXERR_GAAP_{b}' for b in config.band]
 
     # magnitudes
-    config.mag = mag = ml_collections.ConfigDict()
+    config.mag = mag = ConfigDict()
     mag.value_cols = [f'MAG_GAAP_{b}' for b in config.band]
     mag.err_cols = [f'MAGERR_GAAP_{b}' for b in config.band]
 
@@ -37,7 +43,7 @@ def config():
     config.nband = len(config.band)
 
     # redshift
-    config.redshift = redshift = ml_collections.ConfigDict()
+    config.redshift = redshift = ConfigDict()
     redshift.bounds = [(0.1, 0.3),
                        (0.3, 0.5),
                        (0.5, 0.7),
