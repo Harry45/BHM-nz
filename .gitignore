@@ -1,6 +1,6 @@
 # our files/folders to ignore
 bhm/data/
-bhm/reference/BL-2016/files/
+reference/BL-2016/files/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
