@@ -1,0 +1,1184 @@
+SeqNr
+SLID
+SID
+ID
+FLUX_AUTO
+FLUXERR_AUTO
+MAG_AUTO
+MAGERR_AUTO
+KRON_RADIUS
+BackGr
+Level
+MU_THRESHOLD
+MaxVal
+MU_MAX
+ISOAREA_WORLD
+Xpos
+Ypos
+RAJ2000
+DECJ2000
+A_WORLD
+B_WORLD
+THETA_J2000
+THETA_WORLD
+ERRA_WORLD
+ERRB_WORLD
+ERRTHETA_J2000
+ERRTHETA_WORLD
+FWHM_IMAGE
+FWHM_WORLD
+Flag
+FLUX_RADIUS
+CLASS_STAR
+EXTINCTION_u
+EXTINCTION_g
+EXTINCTION_r
+EXTINCTION_i
+PAgaap
+MAG_ISO
+MAGERR_ISO
+FLUX_ISO
+FLUXERR_ISO
+MAG_ISOCOR
+MAGERR_ISOCOR
+FLUX_ISOCOR
+FLUXERR_ISOCOR
+NIMAFLAGS_ISO
+IMAFLAGS_ISO
+XMIN_IMAGE
+YMIN_IMAGE
+XMAX_IMAGE
+YMAX_IMAGE
+X_WORLD
+Y_WORLD
+X2_WORLD
+Y2_WORLD
+XY_WORLD
+ERRX2_WORLD
+ERRY2_WORLD
+ERRXY_WORLD
+CXX_WORLD
+CYY_WORLD
+CXY_WORLD
+ERRCXX_WORLD
+ERRCYY_WORLD
+ERRCXY_WORLD
+A_IMAGE
+B_IMAGE
+ERRA_IMAGE
+ERRB_IMAGE
+S_ELLIPTICITY
+S_ELONGATION
+ALPHA_J2000
+DELTA_J2000
+SG2DPHOT
+HTM
+FIELD_POS
+EXTINCTION_Z
+EXTINCTION_Y
+EXTINCTION_J
+EXTINCTION_H
+EXTINCTION_Ks
+MAG_GAAP_u
+MAGERR_GAAP_u
+FLUX_GAAP_u
+FLUXERR_GAAP_u
+FLAG_GAAP_u
+MAG_GAAP_g
+MAGERR_GAAP_g
+FLUX_GAAP_g
+FLUXERR_GAAP_g
+FLAG_GAAP_g
+MAG_GAAP_r
+MAGERR_GAAP_r
+FLUX_GAAP_r
+FLUXERR_GAAP_r
+FLAG_GAAP_r
+MAG_GAAP_i
+MAGERR_GAAP_i
+FLUX_GAAP_i
+FLUXERR_GAAP_i
+FLAG_GAAP_i
+MAG_GAAP_Z
+MAGERR_GAAP_Z
+FLUX_GAAP_Z
+FLUXERR_GAAP_Z
+FLAG_GAAP_Z
+MAG_GAAP_Y
+MAGERR_GAAP_Y
+FLUX_GAAP_Y
+FLUXERR_GAAP_Y
+FLAG_GAAP_Y
+MAG_GAAP_J
+MAGERR_GAAP_J
+FLUX_GAAP_J
+FLUXERR_GAAP_J
+FLAG_GAAP_J
+MAG_GAAP_H
+MAGERR_GAAP_H
+FLUX_GAAP_H
+FLUXERR_GAAP_H
+FLAG_GAAP_H
+MAG_GAAP_Ks
+MAGERR_GAAP_Ks
+FLUX_GAAP_Ks
+FLUXERR_GAAP_Ks
+FLAG_GAAP_Ks
+Agaper
+Bgaper
+MAG_LIM_u
+MAG_LIM_g
+MAG_LIM_r
+MAG_LIM_i
+MAG_LIM_Z
+MAG_LIM_Y
+MAG_LIM_J
+MAG_LIM_H
+MAG_LIM_Ks
+Z_B
+Z_B_MIN
+Z_B_MAX
+T_B
+ODDS
+Z_ML
+T_ML
+CHI_SQUARED_BPZ
+M_0
+BPZ_FILT
+NBPZ_FILT
+BPZ_NONDETFILT
+NBPZ_NONDETFILT
+BPZ_FLAGFILT
+NBPZ_FLAGFILT
+SG_FLAG
+MASK
+THELI_NAME
+fitclass
+bias_corrected_scalelength_pixels
+bulge_fraction
+model_flux
+pixel_SNratio
+model_SNratio
+contamination_radius
+PSF_e1
+PSF_e2
+PSF_Strehl_ratio
+PSF_Q11
+PSF_Q22
+PSF_Q12
+star_galaxy_f_probability
+r_correction
+2D_measurement_variance
+mean_likelihood_e
+neighbour_mag
+neighbour_distance
+catmag
+n_exposures_used
+cat_ID
+delta_SNR
+PSF_e1_exp1
+PSF_e2_exp1
+PSF_e1_exp2
+PSF_e2_exp2
+PSF_e1_exp3
+PSF_e2_exp3
+PSF_e1_exp4
+PSF_e2_exp4
+PSF_e1_exp5
+PSF_e2_exp5
+SeqNr_field
+THELI_INT
+e1
+e2
+weight
+
+
+Number of patches is: 988
+Number of objects in patch KIDS_0p0_m28p2 is : 17337
+Number of objects in patch KIDS_0p0_m29p2 is : 14137
+Number of objects in patch KIDS_0p0_m30p2 is : 15246
+Number of objects in patch KIDS_0p0_m31p2 is : 15334
+Number of objects in patch KIDS_0p0_m32p1 is : 19782
+Number of objects in patch KIDS_0p0_m33p1 is : 18011
+Number of objects in patch KIDS_0p0_m34p1 is : 16449
+Number of objects in patch KIDS_0p0_m35p1 is : 16122
+Number of objects in patch KIDS_10p3_m29p2 is : 18898
+Number of objects in patch KIDS_10p5_m31p2 is : 16731
+Number of objects in patch KIDS_10p6_m32p1 is : 18617
+Number of objects in patch KIDS_10p7_m33p1 is : 15718
+Number of objects in patch KIDS_10p8_m34p1 is : 15758
+Number of objects in patch KIDS_11p3_m28p2 is : 16319
+Number of objects in patch KIDS_11p4_m29p2 is : 16238
+Number of objects in patch KIDS_11p5_m30p2 is : 14004
+Number of objects in patch KIDS_11p7_m31p2 is : 16317
+Number of objects in patch KIDS_11p9_m33p1 is : 12198
+Number of objects in patch KIDS_129p0_0p5 is : 9418
+Number of objects in patch KIDS_129p0_1p5 is : 13528
+Number of objects in patch KIDS_129p0_m0p5 is : 12731
+Number of objects in patch KIDS_129p0_m1p5 is : 10846
+Number of objects in patch KIDS_129p4_2p5 is : 14053
+Number of objects in patch KIDS_12p0_m34p1 is : 15833
+Number of objects in patch KIDS_12p4_m28p2 is : 19665
+Number of objects in patch KIDS_12p5_m29p2 is : 17660
+Number of objects in patch KIDS_12p7_m30p2 is : 20660
+Number of objects in patch KIDS_12p8_m31p2 is : 13697
+Number of objects in patch KIDS_12p9_m32p1 is : 18492
+Number of objects in patch KIDS_130p0_0p5 is : 11461
+Number of objects in patch KIDS_130p0_1p5 is : 2527
+Number of objects in patch KIDS_130p0_m0p5 is : 12966
+Number of objects in patch KIDS_130p0_m1p5 is : 13270
+Number of objects in patch KIDS_130p4_2p5 is : 9914
+Number of objects in patch KIDS_131p0_0p5 is : 13424
+Number of objects in patch KIDS_131p0_1p5 is : 12450
+Number of objects in patch KIDS_131p0_m0p5 is : 16955
+Number of objects in patch KIDS_131p0_m1p5 is : 10882
+Number of objects in patch KIDS_131p4_2p5 is : 12481
+Number of objects in patch KIDS_132p0_0p5 is : 15742
+Number of objects in patch KIDS_132p0_1p5 is : 15748
+Number of objects in patch KIDS_132p0_m0p5 is : 14143
+Number of objects in patch KIDS_132p0_m1p5 is : 14588
+Number of objects in patch KIDS_132p4_2p5 is : 11949
+Number of objects in patch KIDS_133p0_0p5 is : 13579
+Number of objects in patch KIDS_133p0_1p5 is : 15751
+Number of objects in patch KIDS_133p0_m0p5 is : 14166
+Number of objects in patch KIDS_133p0_m1p5 is : 15688
+Number of objects in patch KIDS_133p4_2p5 is : 12607
+Number of objects in patch KIDS_134p0_0p5 is : 13077
+Number of objects in patch KIDS_134p0_1p5 is : 11965
+Number of objects in patch KIDS_134p0_m0p5 is : 13513
+Number of objects in patch KIDS_134p0_m1p5 is : 14669
+Number of objects in patch KIDS_134p4_2p5 is : 10735
+Number of objects in patch KIDS_135p0_0p5 is : 13634
+Number of objects in patch KIDS_135p0_1p5 is : 11802
+Number of objects in patch KIDS_135p0_m0p5 is : 13864
+Number of objects in patch KIDS_135p0_m1p5 is : 14655
+Number of objects in patch KIDS_135p4_2p5 is : 14291
+Number of objects in patch KIDS_136p0_0p5 is : 15109
+Number of objects in patch KIDS_136p0_1p5 is : 12066
+Number of objects in patch KIDS_136p0_m0p5 is : 9999
+Number of objects in patch KIDS_136p0_m1p5 is : 12457
+Number of objects in patch KIDS_136p4_2p5 is : 14151
+Number of objects in patch KIDS_137p0_0p5 is : 13412
+Number of objects in patch KIDS_137p0_1p5 is : 14570
+Number of objects in patch KIDS_137p0_m0p5 is : 12357
+Number of objects in patch KIDS_137p0_m1p5 is : 14275
+Number of objects in patch KIDS_137p4_2p5 is : 13338
+Number of objects in patch KIDS_138p0_0p5 is : 14733
+Number of objects in patch KIDS_138p0_1p5 is : 11591
+Number of objects in patch KIDS_138p0_m0p5 is : 14649
+Number of objects in patch KIDS_138p0_m1p5 is : 15830
+Number of objects in patch KIDS_138p4_2p5 is : 10799
+Number of objects in patch KIDS_139p0_0p5 is : 12967
+Number of objects in patch KIDS_139p0_1p5 is : 14218
+Number of objects in patch KIDS_139p0_m0p5 is : 13759
+Number of objects in patch KIDS_139p0_m1p5 is : 12653
+Number of objects in patch KIDS_139p4_2p5 is : 15710
+Number of objects in patch KIDS_13p1_m33p1 is : 17764
+Number of objects in patch KIDS_13p2_m34p1 is : 12431
+Number of objects in patch KIDS_13p5_m28p2 is : 17248
+Number of objects in patch KIDS_13p7_m29p2 is : 20159
+Number of objects in patch KIDS_13p8_m30p2 is : 23594
+Number of objects in patch KIDS_140p0_0p5 is : 13088
+Number of objects in patch KIDS_140p0_1p5 is : 13933
+Number of objects in patch KIDS_140p0_m0p5 is : 13104
+Number of objects in patch KIDS_140p0_m1p5 is : 15314
+Number of objects in patch KIDS_140p4_2p5 is : 13661
+Number of objects in patch KIDS_141p0_0p5 is : 15949
+Number of objects in patch KIDS_141p0_1p5 is : 12020
+Number of objects in patch KIDS_141p0_m0p5 is : 14392
+Number of objects in patch KIDS_141p0_m1p5 is : 15304
+Number of objects in patch KIDS_141p4_2p5 is : 9660
+Number of objects in patch KIDS_14p0_m31p2 is : 17348
+Number of objects in patch KIDS_14p1_m32p1 is : 19020
+Number of objects in patch KIDS_14p3_m33p1 is : 19524
+Number of objects in patch KIDS_14p4_m34p1 is : 12838
+Number of objects in patch KIDS_14p7_m28p2 is : 18273
+Number of objects in patch KIDS_14p8_m29p2 is : 19864
+Number of objects in patch KIDS_157p0_0p5 is : 4419
+Number of objects in patch KIDS_157p0_1p5 is : 3311
+Number of objects in patch KIDS_157p0_m0p5 is : 3758
+Number of objects in patch KIDS_157p0_m1p5 is : 2959
+Number of objects in patch KIDS_157p4_2p5 is : 10164
+Number of objects in patch KIDS_157p4_m2p5 is : 9425
+Number of objects in patch KIDS_158p0_0p5 is : 14281
+Number of objects in patch KIDS_158p0_1p5 is : 17219
+Number of objects in patch KIDS_158p0_m0p5 is : 17832
+Number of objects in patch KIDS_158p0_m1p5 is : 13638
+Number of objects in patch KIDS_158p4_2p5 is : 10457
+Number of objects in patch KIDS_158p4_m2p5 is : 14198
+Number of objects in patch KIDS_159p0_0p5 is : 14103
+Number of objects in patch KIDS_159p0_1p5 is : 13824
+Number of objects in patch KIDS_159p0_m0p5 is : 13243
+Number of objects in patch KIDS_159p0_m1p5 is : 13985
+Number of objects in patch KIDS_159p4_2p5 is : 15248
+Number of objects in patch KIDS_159p4_m2p5 is : 15450
+Number of objects in patch KIDS_15p0_m30p2 is : 18801
+Number of objects in patch KIDS_15p1_m31p2 is : 13827
+Number of objects in patch KIDS_15p3_m32p1 is : 14738
+Number of objects in patch KIDS_15p4_m33p1 is : 17145
+Number of objects in patch KIDS_15p6_m34p1 is : 20748
+Number of objects in patch KIDS_15p8_m28p2 is : 15736
+Number of objects in patch KIDS_15p9_m29p2 is : 17743
+Number of objects in patch KIDS_160p0_0p5 is : 10655
+Number of objects in patch KIDS_160p0_1p5 is : 15066
+Number of objects in patch KIDS_160p0_m0p5 is : 15547
+Number of objects in patch KIDS_160p0_m1p5 is : 14443
+Number of objects in patch KIDS_160p4_2p5 is : 16252
+Number of objects in patch KIDS_161p0_0p5 is : 14449
+Number of objects in patch KIDS_161p0_1p5 is : 16234
+Number of objects in patch KIDS_161p0_m0p5 is : 19425
+Number of objects in patch KIDS_161p0_m1p5 is : 13653
+Number of objects in patch KIDS_161p4_2p5 is : 12016
+Number of objects in patch KIDS_161p4_m2p5 is : 14343
+Number of objects in patch KIDS_162p0_0p5 is : 13936
+Number of objects in patch KIDS_162p0_1p5 is : 13344
+Number of objects in patch KIDS_162p0_m0p5 is : 6822
+Number of objects in patch KIDS_163p0_0p5 is : 12022
+Number of objects in patch KIDS_163p0_1p5 is : 14200
+Number of objects in patch KIDS_163p0_m0p5 is : 8878
+Number of objects in patch KIDS_163p0_m1p5 is : 14715
+Number of objects in patch KIDS_164p0_0p5 is : 11148
+Number of objects in patch KIDS_164p0_1p5 is : 15929
+Number of objects in patch KIDS_164p0_m0p5 is : 12559
+Number of objects in patch KIDS_164p0_m1p5 is : 16200
+Number of objects in patch KIDS_165p0_0p5 is : 16802
+Number of objects in patch KIDS_165p0_1p5 is : 16440
+Number of objects in patch KIDS_165p0_m0p5 is : 17694
+Number of objects in patch KIDS_165p0_m1p5 is : 17142
+Number of objects in patch KIDS_166p0_0p5 is : 14410
+Number of objects in patch KIDS_166p0_1p5 is : 11727
+Number of objects in patch KIDS_166p0_m0p5 is : 9778
+Number of objects in patch KIDS_166p5_2p5 is : 13539
+Number of objects in patch KIDS_167p0_0p5 is : 11889
+Number of objects in patch KIDS_167p0_1p5 is : 15456
+Number of objects in patch KIDS_167p0_m0p5 is : 4114
+Number of objects in patch KIDS_167p0_m1p5 is : 14541
+Number of objects in patch KIDS_167p5_2p5 is : 14087
+Number of objects in patch KIDS_167p5_m2p5 is : 18953
+Number of objects in patch KIDS_168p0_0p5 is : 3084
+Number of objects in patch KIDS_168p0_1p5 is : 16331
+Number of objects in patch KIDS_168p0_m0p5 is : 16465
+Number of objects in patch KIDS_168p0_m1p5 is : 15468
+Number of objects in patch KIDS_168p5_2p5 is : 16107
+Number of objects in patch KIDS_168p5_m2p5 is : 16056
+Number of objects in patch KIDS_169p0_0p5 is : 10980
+Number of objects in patch KIDS_169p0_1p5 is : 13315
+Number of objects in patch KIDS_169p0_m0p5 is : 16788
+Number of objects in patch KIDS_169p0_m1p5 is : 12640
+Number of objects in patch KIDS_169p5_2p5 is : 13320
+Number of objects in patch KIDS_169p5_m2p5 is : 17217
+Number of objects in patch KIDS_16p1_m30p2 is : 17636
+Number of objects in patch KIDS_16p3_m31p2 is : 18093
+Number of objects in patch KIDS_16p5_m32p1 is : 15972
+Number of objects in patch KIDS_16p6_m33p1 is : 15640
+Number of objects in patch KIDS_16p8_m34p1 is : 14341
+Number of objects in patch KIDS_16p9_m28p2 is : 14307
+Number of objects in patch KIDS_170p0_0p5 is : 13978
+Number of objects in patch KIDS_170p0_1p5 is : 13555
+Number of objects in patch KIDS_170p0_m0p5 is : 15099
+Number of objects in patch KIDS_170p5_2p5 is : 17519
+Number of objects in patch KIDS_170p5_m2p5 is : 15939
+Number of objects in patch KIDS_171p0_0p5 is : 16170
+Number of objects in patch KIDS_171p0_1p5 is : 15632
+Number of objects in patch KIDS_171p0_m0p5 is : 15332
+Number of objects in patch KIDS_171p5_m2p5 is : 14345
+Number of objects in patch KIDS_172p0_0p5 is : 17787
+Number of objects in patch KIDS_172p0_1p5 is : 14130
+Number of objects in patch KIDS_172p0_m0p5 is : 18660
+Number of objects in patch KIDS_172p0_m1p5 is : 15386
+Number of objects in patch KIDS_172p5_2p5 is : 15603
+Number of objects in patch KIDS_172p5_m2p5 is : 13097
+Number of objects in patch KIDS_173p0_0p5 is : 12316
+Number of objects in patch KIDS_173p0_1p5 is : 14254
+Number of objects in patch KIDS_173p0_m0p5 is : 12319
+Number of objects in patch KIDS_173p0_m1p5 is : 15564
+Number of objects in patch KIDS_173p5_2p5 is : 14253
+Number of objects in patch KIDS_173p5_m2p5 is : 14830
+Number of objects in patch KIDS_174p0_0p5 is : 15433
+Number of objects in patch KIDS_174p0_1p5 is : 16332
+Number of objects in patch KIDS_174p0_m0p5 is : 10599
+Number of objects in patch KIDS_174p0_m1p5 is : 10349
+Number of objects in patch KIDS_174p5_2p5 is : 17084
+Number of objects in patch KIDS_174p5_m2p5 is : 13052
+Number of objects in patch KIDS_175p0_0p5 is : 16480
+Number of objects in patch KIDS_175p0_1p5 is : 13872
+Number of objects in patch KIDS_175p0_m0p5 is : 12993
+Number of objects in patch KIDS_175p0_m1p5 is : 12240
+Number of objects in patch KIDS_175p5_2p5 is : 13546
+Number of objects in patch KIDS_175p5_m2p5 is : 13104
+Number of objects in patch KIDS_176p0_0p5 is : 19268
+Number of objects in patch KIDS_176p0_1p5 is : 15831
+Number of objects in patch KIDS_176p0_m0p5 is : 13428
+Number of objects in patch KIDS_176p0_m1p5 is : 17111
+Number of objects in patch KIDS_176p5_2p5 is : 13108
+Number of objects in patch KIDS_176p5_m2p5 is : 14599
+Number of objects in patch KIDS_177p0_0p5 is : 17552
+Number of objects in patch KIDS_177p0_1p5 is : 15744
+Number of objects in patch KIDS_177p0_m0p5 is : 13319
+Number of objects in patch KIDS_177p0_m1p5 is : 13403
+Number of objects in patch KIDS_177p5_2p5 is : 13780
+Number of objects in patch KIDS_177p5_m2p5 is : 16132
+Number of objects in patch KIDS_178p0_0p5 is : 17138
+Number of objects in patch KIDS_178p0_1p5 is : 15843
+Number of objects in patch KIDS_178p0_m0p5 is : 17301
+Number of objects in patch KIDS_178p0_m1p5 is : 15845
+Number of objects in patch KIDS_178p5_2p5 is : 16854
+Number of objects in patch KIDS_178p5_m2p5 is : 14546
+Number of objects in patch KIDS_179p0_0p5 is : 16599
+Number of objects in patch KIDS_179p0_1p5 is : 19627
+Number of objects in patch KIDS_179p0_m0p5 is : 15048
+Number of objects in patch KIDS_179p0_m1p5 is : 16043
+Number of objects in patch KIDS_179p5_2p5 is : 15228
+Number of objects in patch KIDS_179p5_m2p5 is : 16993
+Number of objects in patch KIDS_17p1_m29p2 is : 16613
+Number of objects in patch KIDS_17p3_m30p2 is : 7633
+Number of objects in patch KIDS_17p5_m31p2 is : 13291
+Number of objects in patch KIDS_17p6_m32p1 is : 16445
+Number of objects in patch KIDS_17p8_m33p1 is : 18332
+Number of objects in patch KIDS_180p0_0p5 is : 15348
+Number of objects in patch KIDS_180p0_1p5 is : 15385
+Number of objects in patch KIDS_180p0_m0p5 is : 14899
+Number of objects in patch KIDS_180p0_m1p5 is : 14567
+Number of objects in patch KIDS_180p5_2p5 is : 14026
+Number of objects in patch KIDS_180p5_m2p5 is : 13389
+Number of objects in patch KIDS_181p0_0p5 is : 16423
+Number of objects in patch KIDS_181p0_1p5 is : 18698
+Number of objects in patch KIDS_181p0_m0p5 is : 13739
+Number of objects in patch KIDS_181p0_m1p5 is : 17925
+Number of objects in patch KIDS_181p5_2p5 is : 15364
+Number of objects in patch KIDS_181p5_m2p5 is : 15602
+Number of objects in patch KIDS_182p0_0p5 is : 18240
+Number of objects in patch KIDS_182p0_1p5 is : 16592
+Number of objects in patch KIDS_182p0_m0p5 is : 16281
+Number of objects in patch KIDS_182p0_m1p5 is : 18760
+Number of objects in patch KIDS_182p5_2p5 is : 14923
+Number of objects in patch KIDS_182p5_m2p5 is : 14120
+Number of objects in patch KIDS_183p0_0p5 is : 19287
+Number of objects in patch KIDS_183p0_1p5 is : 19288
+Number of objects in patch KIDS_183p0_m0p5 is : 17940
+Number of objects in patch KIDS_183p0_m1p5 is : 17900
+Number of objects in patch KIDS_183p5_2p5 is : 14196
+Number of objects in patch KIDS_183p5_m2p5 is : 14249
+Number of objects in patch KIDS_184p0_0p5 is : 18950
+Number of objects in patch KIDS_184p0_1p5 is : 18384
+Number of objects in patch KIDS_184p0_m0p5 is : 17957
+Number of objects in patch KIDS_184p0_m1p5 is : 14975
+Number of objects in patch KIDS_184p5_2p5 is : 12514
+Number of objects in patch KIDS_184p5_m2p5 is : 16624
+Number of objects in patch KIDS_185p0_0p5 is : 17288
+Number of objects in patch KIDS_185p0_1p5 is : 9891
+Number of objects in patch KIDS_185p0_m0p5 is : 15224
+Number of objects in patch KIDS_185p0_m1p5 is : 18245
+Number of objects in patch KIDS_185p5_2p5 is : 16441
+Number of objects in patch KIDS_185p5_m2p5 is : 14946
+Number of objects in patch KIDS_186p0_0p5 is : 14759
+Number of objects in patch KIDS_186p0_1p5 is : 10395
+Number of objects in patch KIDS_186p0_m0p5 is : 16869
+Number of objects in patch KIDS_186p0_m1p5 is : 14101
+Number of objects in patch KIDS_186p5_2p5 is : 15169
+Number of objects in patch KIDS_186p5_m2p5 is : 14109
+Number of objects in patch KIDS_187p0_0p5 is : 17026
+Number of objects in patch KIDS_187p0_1p5 is : 13687
+Number of objects in patch KIDS_187p0_m0p5 is : 13912
+Number of objects in patch KIDS_187p0_m1p5 is : 12327
+Number of objects in patch KIDS_187p5_2p5 is : 20190
+Number of objects in patch KIDS_187p5_m2p5 is : 14153
+Number of objects in patch KIDS_188p0_0p5 is : 13547
+Number of objects in patch KIDS_188p0_1p5 is : 16814
+Number of objects in patch KIDS_188p0_m0p5 is : 12531
+Number of objects in patch KIDS_188p5_2p5 is : 16359
+Number of objects in patch KIDS_189p0_0p5 is : 18864
+Number of objects in patch KIDS_189p0_1p5 is : 15114
+Number of objects in patch KIDS_189p0_m0p5 is : 13478
+Number of objects in patch KIDS_189p5_2p5 is : 16030
+Number of objects in patch KIDS_18p0_m34p1 is : 14947
+Number of objects in patch KIDS_18p1_m28p2 is : 14387
+Number of objects in patch KIDS_18p2_m29p2 is : 12852
+Number of objects in patch KIDS_18p4_m30p2 is : 12870
+Number of objects in patch KIDS_18p6_m31p2 is : 14157
+Number of objects in patch KIDS_18p8_m32p1 is : 20011
+Number of objects in patch KIDS_190p0_0p5 is : 18993
+Number of objects in patch KIDS_190p0_1p5 is : 14571
+Number of objects in patch KIDS_190p0_m0p5 is : 17276
+Number of objects in patch KIDS_190p5_2p5 is : 16217
+Number of objects in patch KIDS_191p0_0p5 is : 16233
+Number of objects in patch KIDS_191p0_1p5 is : 13609
+Number of objects in patch KIDS_191p0_m0p5 is : 14957
+Number of objects in patch KIDS_191p5_2p5 is : 15693
+Number of objects in patch KIDS_192p0_0p5 is : 15898
+Number of objects in patch KIDS_192p0_1p5 is : 13628
+Number of objects in patch KIDS_192p0_m0p5 is : 15117
+Number of objects in patch KIDS_192p5_2p5 is : 18303
+Number of objects in patch KIDS_193p0_0p5 is : 16383
+Number of objects in patch KIDS_193p0_1p5 is : 13556
+Number of objects in patch KIDS_193p0_m0p5 is : 13314
+Number of objects in patch KIDS_193p5_2p5 is : 16058
+Number of objects in patch KIDS_194p0_0p5 is : 19411
+Number of objects in patch KIDS_194p0_1p5 is : 15143
+Number of objects in patch KIDS_194p0_m0p5 is : 19105
+Number of objects in patch KIDS_194p5_2p5 is : 17943
+Number of objects in patch KIDS_195p0_0p5 is : 19327
+Number of objects in patch KIDS_195p0_m0p5 is : 17923
+Number of objects in patch KIDS_195p5_2p5 is : 15411
+Number of objects in patch KIDS_196p0_0p5 is : 13167
+Number of objects in patch KIDS_196p0_1p5 is : 7203
+Number of objects in patch KIDS_196p0_m0p5 is : 14256
+Number of objects in patch KIDS_196p5_2p5 is : 16143
+Number of objects in patch KIDS_197p0_0p5 is : 18873
+Number of objects in patch KIDS_197p0_1p5 is : 12688
+Number of objects in patch KIDS_197p0_m0p5 is : 14830
+Number of objects in patch KIDS_197p5_2p5 is : 17605
+Number of objects in patch KIDS_198p0_0p5 is : 16673
+Number of objects in patch KIDS_198p0_1p5 is : 13444
+Number of objects in patch KIDS_198p0_m0p5 is : 17670
+Number of objects in patch KIDS_198p6_2p5 is : 14941
+Number of objects in patch KIDS_199p0_0p5 is : 19980
+Number of objects in patch KIDS_199p0_1p5 is : 16827
+Number of objects in patch KIDS_199p0_m0p5 is : 15583
+Number of objects in patch KIDS_199p6_2p5 is : 13065
+Number of objects in patch KIDS_19p0_m33p1 is : 18176
+Number of objects in patch KIDS_19p2_m28p2 is : 17628
+Number of objects in patch KIDS_19p2_m34p1 is : 17234
+Number of objects in patch KIDS_19p4_m29p2 is : 16697
+Number of objects in patch KIDS_19p6_m30p2 is : 18077
+Number of objects in patch KIDS_19p8_m31p2 is : 16652
+Number of objects in patch KIDS_1p1_m28p2 is : 18719
+Number of objects in patch KIDS_1p1_m29p2 is : 15965
+Number of objects in patch KIDS_1p2_m30p2 is : 13280
+Number of objects in patch KIDS_1p2_m31p2 is : 16944
+Number of objects in patch KIDS_1p2_m32p1 is : 20072
+Number of objects in patch KIDS_1p2_m33p1 is : 15574
+Number of objects in patch KIDS_1p2_m34p1 is : 20713
+Number of objects in patch KIDS_1p2_m35p1 is : 19065
+Number of objects in patch KIDS_200p0_0p5 is : 18729
+Number of objects in patch KIDS_200p0_1p5 is : 19544
+Number of objects in patch KIDS_200p0_m0p5 is : 14212
+Number of objects in patch KIDS_200p6_2p5 is : 12275
+Number of objects in patch KIDS_200p6_m2p5 is : 14807
+Number of objects in patch KIDS_201p0_0p5 is : 17492
+Number of objects in patch KIDS_201p0_1p5 is : 17066
+Number of objects in patch KIDS_201p0_m0p5 is : 16120
+Number of objects in patch KIDS_201p6_2p5 is : 17958
+Number of objects in patch KIDS_201p6_m2p5 is : 15565
+Number of objects in patch KIDS_202p0_1p5 is : 19568
+Number of objects in patch KIDS_202p0_m0p5 is : 17008
+Number of objects in patch KIDS_202p6_2p5 is : 12393
+Number of objects in patch KIDS_202p6_m2p5 is : 15293
+Number of objects in patch KIDS_203p0_0p5 is : 18056
+Number of objects in patch KIDS_203p0_1p5 is : 15573
+Number of objects in patch KIDS_203p0_m0p5 is : 12415
+Number of objects in patch KIDS_203p6_2p5 is : 16516
+Number of objects in patch KIDS_204p0_0p5 is : 16339
+Number of objects in patch KIDS_204p0_1p5 is : 16609
+Number of objects in patch KIDS_204p0_m0p5 is : 12250
+Number of objects in patch KIDS_204p0_m1p5 is : 15274
+Number of objects in patch KIDS_204p6_m2p5 is : 15990
+Number of objects in patch KIDS_205p0_1p5 is : 17033
+Number of objects in patch KIDS_205p0_m0p5 is : 17508
+Number of objects in patch KIDS_205p0_m1p5 is : 20624
+Number of objects in patch KIDS_205p6_2p5 is : 18273
+Number of objects in patch KIDS_206p0_0p5 is : 21332
+Number of objects in patch KIDS_206p0_1p5 is : 17385
+Number of objects in patch KIDS_206p0_m0p5 is : 20038
+Number of objects in patch KIDS_206p0_m1p5 is : 16527
+Number of objects in patch KIDS_206p6_m2p5 is : 17565
+Number of objects in patch KIDS_207p0_0p5 is : 15837
+Number of objects in patch KIDS_207p0_1p5 is : 15601
+Number of objects in patch KIDS_207p0_m0p5 is : 19284
+Number of objects in patch KIDS_207p0_m1p5 is : 16434
+Number of objects in patch KIDS_208p0_0p5 is : 18046
+Number of objects in patch KIDS_208p0_1p5 is : 13365
+Number of objects in patch KIDS_208p0_m0p5 is : 15498
+Number of objects in patch KIDS_208p0_m1p5 is : 13533
+Number of objects in patch KIDS_209p0_0p5 is : 11189
+Number of objects in patch KIDS_209p0_1p5 is : 13921
+Number of objects in patch KIDS_209p0_m0p5 is : 12617
+Number of objects in patch KIDS_209p0_m1p5 is : 13021
+Number of objects in patch KIDS_209p6_2p5 is : 13064
+Number of objects in patch KIDS_20p0_m32p1 is : 18873
+Number of objects in patch KIDS_20p2_m33p1 is : 15012
+Number of objects in patch KIDS_20p3_m28p2 is : 16580
+Number of objects in patch KIDS_20p4_m34p1 is : 15741
+Number of objects in patch KIDS_20p5_m29p2 is : 17607
+Number of objects in patch KIDS_20p7_m30p2 is : 21262
+Number of objects in patch KIDS_210p0_0p5 is : 14874
+Number of objects in patch KIDS_210p0_1p5 is : 14621
+Number of objects in patch KIDS_210p0_m1p5 is : 14430
+Number of objects in patch KIDS_210p6_2p5 is : 16392
+Number of objects in patch KIDS_210p6_m2p5 is : 13861
+Number of objects in patch KIDS_211p0_0p5 is : 16948
+Number of objects in patch KIDS_211p0_1p5 is : 17048
+Number of objects in patch KIDS_211p0_m0p5 is : 14838
+Number of objects in patch KIDS_211p0_m1p5 is : 16780
+Number of objects in patch KIDS_211p6_2p5 is : 13513
+Number of objects in patch KIDS_211p6_m2p5 is : 13647
+Number of objects in patch KIDS_212p0_0p5 is : 15188
+Number of objects in patch KIDS_212p0_1p5 is : 13707
+Number of objects in patch KIDS_212p0_m0p5 is : 15384
+Number of objects in patch KIDS_212p0_m1p5 is : 13332
+Number of objects in patch KIDS_212p6_2p5 is : 12197
+Number of objects in patch KIDS_212p6_m2p5 is : 13990
+Number of objects in patch KIDS_213p0_0p5 is : 14383
+Number of objects in patch KIDS_213p0_1p5 is : 16555
+Number of objects in patch KIDS_213p0_m0p5 is : 15683
+Number of objects in patch KIDS_213p0_m1p5 is : 14662
+Number of objects in patch KIDS_213p6_2p5 is : 14048
+Number of objects in patch KIDS_213p6_m2p5 is : 12863
+Number of objects in patch KIDS_214p0_0p5 is : 17254
+Number of objects in patch KIDS_214p0_1p5 is : 17199
+Number of objects in patch KIDS_214p0_m0p5 is : 16178
+Number of objects in patch KIDS_214p0_m1p5 is : 13319
+Number of objects in patch KIDS_214p6_2p5 is : 19476
+Number of objects in patch KIDS_214p6_m2p5 is : 15068
+Number of objects in patch KIDS_215p0_0p5 is : 15170
+Number of objects in patch KIDS_215p0_1p5 is : 16405
+Number of objects in patch KIDS_215p0_m0p5 is : 17491
+Number of objects in patch KIDS_215p0_m1p5 is : 14291
+Number of objects in patch KIDS_215p6_2p5 is : 15356
+Number of objects in patch KIDS_215p6_m2p5 is : 13973
+Number of objects in patch KIDS_216p0_0p5 is : 16406
+Number of objects in patch KIDS_216p0_1p5 is : 15917
+Number of objects in patch KIDS_216p0_m0p5 is : 17327
+Number of objects in patch KIDS_216p0_m1p5 is : 14496
+Number of objects in patch KIDS_216p6_2p5 is : 14099
+Number of objects in patch KIDS_216p6_m2p5 is : 13935
+Number of objects in patch KIDS_217p0_0p5 is : 15406
+Number of objects in patch KIDS_217p0_1p5 is : 16472
+Number of objects in patch KIDS_217p0_m0p5 is : 16467
+Number of objects in patch KIDS_217p0_m1p5 is : 14585
+Number of objects in patch KIDS_217p6_2p5 is : 19019
+Number of objects in patch KIDS_217p6_m2p5 is : 13005
+Number of objects in patch KIDS_218p0_0p5 is : 17225
+Number of objects in patch KIDS_218p0_1p5 is : 13471
+Number of objects in patch KIDS_218p0_m0p5 is : 15838
+Number of objects in patch KIDS_218p0_m1p5 is : 15979
+Number of objects in patch KIDS_218p6_2p5 is : 14107
+Number of objects in patch KIDS_218p6_m2p5 is : 16298
+Number of objects in patch KIDS_219p0_0p5 is : 16817
+Number of objects in patch KIDS_219p0_1p5 is : 13288
+Number of objects in patch KIDS_219p0_m0p5 is : 17467
+Number of objects in patch KIDS_219p0_m1p5 is : 16610
+Number of objects in patch KIDS_219p6_2p5 is : 11025
+Number of objects in patch KIDS_219p6_m2p5 is : 10960
+Number of objects in patch KIDS_21p0_m31p2 is : 16085
+Number of objects in patch KIDS_21p2_m32p1 is : 15687
+Number of objects in patch KIDS_21p4_m28p2 is : 11209
+Number of objects in patch KIDS_21p4_m33p1 is : 16170
+Number of objects in patch KIDS_21p6_m29p2 is : 15675
+Number of objects in patch KIDS_21p6_m34p1 is : 17065
+Number of objects in patch KIDS_21p9_m30p2 is : 16289
+Number of objects in patch KIDS_220p0_0p5 is : 14003
+Number of objects in patch KIDS_220p0_1p5 is : 15416
+Number of objects in patch KIDS_220p0_m0p5 is : 15952
+Number of objects in patch KIDS_220p0_m1p5 is : 16886
+Number of objects in patch KIDS_220p6_2p5 is : 13703
+Number of objects in patch KIDS_220p6_m2p5 is : 12181
+Number of objects in patch KIDS_220p6_m3p5 is : 9793
+Number of objects in patch KIDS_221p0_0p5 is : 17992
+Number of objects in patch KIDS_221p0_1p5 is : 15734
+Number of objects in patch KIDS_221p0_m0p5 is : 15527
+Number of objects in patch KIDS_221p0_m1p5 is : 15614
+Number of objects in patch KIDS_221p6_2p5 is : 16709
+Number of objects in patch KIDS_221p6_m2p5 is : 12461
+Number of objects in patch KIDS_221p6_m3p5 is : 8854
+Number of objects in patch KIDS_222p0_0p5 is : 14794
+Number of objects in patch KIDS_222p0_1p5 is : 12466
+Number of objects in patch KIDS_222p0_m0p5 is : 13781
+Number of objects in patch KIDS_222p0_m1p5 is : 14982
+Number of objects in patch KIDS_222p6_2p5 is : 15933
+Number of objects in patch KIDS_222p6_m2p5 is : 13384
+Number of objects in patch KIDS_223p0_0p5 is : 17994
+Number of objects in patch KIDS_223p0_1p5 is : 13177
+Number of objects in patch KIDS_223p0_m0p5 is : 14305
+Number of objects in patch KIDS_223p0_m1p5 is : 10587
+Number of objects in patch KIDS_223p6_2p5 is : 13718
+Number of objects in patch KIDS_223p6_m2p5 is : 11002
+Number of objects in patch KIDS_224p0_0p5 is : 12627
+Number of objects in patch KIDS_224p0_1p5 is : 16312
+Number of objects in patch KIDS_224p0_m0p5 is : 12640
+Number of objects in patch KIDS_224p0_m1p5 is : 12341
+Number of objects in patch KIDS_224p6_2p5 is : 13816
+Number of objects in patch KIDS_224p6_m2p5 is : 13168
+Number of objects in patch KIDS_225p0_0p5 is : 15537
+Number of objects in patch KIDS_225p0_1p5 is : 12862
+Number of objects in patch KIDS_225p0_m0p5 is : 12914
+Number of objects in patch KIDS_225p0_m1p5 is : 16548
+Number of objects in patch KIDS_225p6_2p5 is : 4178
+Number of objects in patch KIDS_226p0_0p5 is : 12922
+Number of objects in patch KIDS_226p0_1p5 is : 16658
+Number of objects in patch KIDS_226p0_m0p5 is : 15450
+Number of objects in patch KIDS_226p0_m1p5 is : 17574
+Number of objects in patch KIDS_226p6_2p5 is : 648
+Number of objects in patch KIDS_227p0_0p5 is : 13696
+Number of objects in patch KIDS_227p0_1p5 is : 13845
+Number of objects in patch KIDS_227p0_m0p5 is : 14052
+Number of objects in patch KIDS_227p0_m1p5 is : 15491
+Number of objects in patch KIDS_227p6_2p5 is : 846
+Number of objects in patch KIDS_228p0_0p5 is : 9365
+Number of objects in patch KIDS_228p0_1p5 is : 11294
+Number of objects in patch KIDS_228p0_m0p5 is : 19995
+Number of objects in patch KIDS_228p0_m1p5 is : 12705
+Number of objects in patch KIDS_228p6_2p5 is : 504
+Number of objects in patch KIDS_229p0_0p5 is : 9826
+Number of objects in patch KIDS_229p0_1p5 is : 10903
+Number of objects in patch KIDS_229p0_m0p5 is : 13678
+Number of objects in patch KIDS_229p0_m1p5 is : 12695
+Number of objects in patch KIDS_22p1_m31p2 is : 16575
+Number of objects in patch KIDS_22p6_m28p2 is : 17098
+Number of objects in patch KIDS_22p6_m33p1 is : 13882
+Number of objects in patch KIDS_22p8_m29p2 is : 16365
+Number of objects in patch KIDS_22p8_m34p1 is : 13155
+Number of objects in patch KIDS_230p0_0p5 is : 10727
+Number of objects in patch KIDS_230p0_1p5 is : 13830
+Number of objects in patch KIDS_230p0_m0p5 is : 12985
+Number of objects in patch KIDS_230p0_m1p5 is : 12092
+Number of objects in patch KIDS_230p6_2p5 is : 847
+Number of objects in patch KIDS_231p0_0p5 is : 10708
+Number of objects in patch KIDS_231p0_1p5 is : 17143
+Number of objects in patch KIDS_231p0_m0p5 is : 11630
+Number of objects in patch KIDS_231p0_m1p5 is : 10697
+Number of objects in patch KIDS_231p6_2p5 is : 1010
+Number of objects in patch KIDS_232p0_0p5 is : 12716
+Number of objects in patch KIDS_232p0_1p5 is : 12649
+Number of objects in patch KIDS_232p0_m0p5 is : 11218
+Number of objects in patch KIDS_232p0_m1p5 is : 10119
+Number of objects in patch KIDS_232p6_2p5 is : 598
+Number of objects in patch KIDS_233p0_0p5 is : 11790
+Number of objects in patch KIDS_233p0_1p5 is : 17181
+Number of objects in patch KIDS_233p0_m0p5 is : 13526
+Number of objects in patch KIDS_233p0_m1p5 is : 9586
+Number of objects in patch KIDS_233p6_2p5 is : 733
+Number of objects in patch KIDS_234p0_0p5 is : 12763
+Number of objects in patch KIDS_234p0_1p5 is : 14113
+Number of objects in patch KIDS_234p0_m0p5 is : 12363
+Number of objects in patch KIDS_234p0_m1p5 is : 12432
+Number of objects in patch KIDS_234p7_2p5 is : 840
+Number of objects in patch KIDS_235p0_0p5 is : 15332
+Number of objects in patch KIDS_235p0_1p5 is : 16522
+Number of objects in patch KIDS_235p0_m0p5 is : 10270
+Number of objects in patch KIDS_235p0_m1p5 is : 11428
+Number of objects in patch KIDS_235p7_2p5 is : 861
+Number of objects in patch KIDS_236p0_0p5 is : 12201
+Number of objects in patch KIDS_236p0_1p5 is : 15518
+Number of objects in patch KIDS_236p0_m0p5 is : 13199
+Number of objects in patch KIDS_236p0_m1p5 is : 13436
+Number of objects in patch KIDS_236p7_2p5 is : 854
+Number of objects in patch KIDS_237p0_0p5 is : 2276
+Number of objects in patch KIDS_237p0_1p5 is : 11152
+Number of objects in patch KIDS_237p0_m0p5 is : 3933
+Number of objects in patch KIDS_237p0_m1p5 is : 3877
+Number of objects in patch KIDS_237p7_2p5 is : 18
+Number of objects in patch KIDS_23p0_m30p2 is : 16103
+Number of objects in patch KIDS_23p9_m29p2 is : 15918
+Number of objects in patch KIDS_24p0_m34p1 is : 18225
+Number of objects in patch KIDS_24p2_m30p2 is : 17224
+Number of objects in patch KIDS_24p5_m31p2 is : 17757
+Number of objects in patch KIDS_24p7_m32p1 is : 14081
+Number of objects in patch KIDS_25p1_m29p2 is : 16602
+Number of objects in patch KIDS_25p2_m34p1 is : 15782
+Number of objects in patch KIDS_25p3_m30p2 is : 17128
+Number of objects in patch KIDS_26p2_m29p2 is : 16687
+Number of objects in patch KIDS_26p5_m30p2 is : 16705
+Number of objects in patch KIDS_27p3_m29p2 is : 19165
+Number of objects in patch KIDS_27p6_m30p2 is : 17185
+Number of objects in patch KIDS_28p8_m30p2 is : 17437
+Number of objects in patch KIDS_28p8_m34p1 is : 12309
+Number of objects in patch KIDS_29p1_m31p2 is : 13778
+Number of objects in patch KIDS_29p4_m32p1 is : 16446
+Number of objects in patch KIDS_29p6_m29p2 is : 17477
+Number of objects in patch KIDS_29p7_m33p1 is : 18855
+Number of objects in patch KIDS_29p9_m30p2 is : 12360
+Number of objects in patch KIDS_2p3_m29p2 is : 19249
+Number of objects in patch KIDS_2p3_m30p2 is : 15701
+Number of objects in patch KIDS_2p3_m31p2 is : 19033
+Number of objects in patch KIDS_2p4_m32p1 is : 18189
+Number of objects in patch KIDS_2p4_m33p1 is : 18493
+Number of objects in patch KIDS_2p4_m34p1 is : 19016
+Number of objects in patch KIDS_2p4_m35p1 is : 13698
+Number of objects in patch KIDS_30p0_m34p1 is : 16108
+Number of objects in patch KIDS_30p3_m31p2 is : 17902
+Number of objects in patch KIDS_30p5_m28p2 is : 14787
+Number of objects in patch KIDS_30p6_m32p1 is : 18173
+Number of objects in patch KIDS_30p9_m33p1 is : 19857
+Number of objects in patch KIDS_31p2_m34p1 is : 21589
+Number of objects in patch KIDS_31p5_m31p2 is : 17492
+Number of objects in patch KIDS_31p6_m28p2 is : 14014
+Number of objects in patch KIDS_31p8_m32p1 is : 13948
+Number of objects in patch KIDS_31p9_m29p2 is : 13558
+Number of objects in patch KIDS_329p5_m28p2 is : 1104
+Number of objects in patch KIDS_329p6_m35p1 is : 1864
+Number of objects in patch KIDS_329p7_m27p2 is : 2481
+Number of objects in patch KIDS_329p7_m31p2 is : 3282
+Number of objects in patch KIDS_32p1_m33p1 is : 17227
+Number of objects in patch KIDS_32p2_m30p2 is : 15940
+Number of objects in patch KIDS_32p4_m34p1 is : 16906
+Number of objects in patch KIDS_32p6_m31p2 is : 13126
+Number of objects in patch KIDS_32p7_m28p2 is : 12769
+Number of objects in patch KIDS_32p9_m32p1 is : 14992
+Number of objects in patch KIDS_330p0_m34p1 is : 6173
+Number of objects in patch KIDS_330p1_m30p2 is : 6215
+Number of objects in patch KIDS_330p3_m33p1 is : 10049
+Number of objects in patch KIDS_330p4_m29p2 is : 15338
+Number of objects in patch KIDS_330p6_m32p1 is : 13078
+Number of objects in patch KIDS_330p8_m27p2 is : 8397
+Number of objects in patch KIDS_330p8_m35p1 is : 13664
+Number of objects in patch KIDS_330p9_m31p2 is : 14551
+Number of objects in patch KIDS_331p2_m30p2 is : 13004
+Number of objects in patch KIDS_331p2_m34p1 is : 15221
+Number of objects in patch KIDS_331p5_m29p2 is : 15637
+Number of objects in patch KIDS_331p5_m33p1 is : 13463
+Number of objects in patch KIDS_331p8_m28p2 is : 13974
+Number of objects in patch KIDS_331p8_m32p1 is : 14367
+Number of objects in patch KIDS_332p0_m27p2 is : 9950
+Number of objects in patch KIDS_332p0_m31p2 is : 13134
+Number of objects in patch KIDS_332p0_m35p1 is : 11196
+Number of objects in patch KIDS_332p4_m30p2 is : 15107
+Number of objects in patch KIDS_332p4_m34p1 is : 11149
+Number of objects in patch KIDS_332p7_m29p2 is : 14813
+Number of objects in patch KIDS_332p7_m33p1 is : 13814
+Number of objects in patch KIDS_332p9_m28p2 is : 12747
+Number of objects in patch KIDS_332p9_m32p1 is : 11007
+Number of objects in patch KIDS_333p2_m31p2 is : 15967
+Number of objects in patch KIDS_333p2_m35p1 is : 16018
+Number of objects in patch KIDS_333p5_m30p2 is : 17388
+Number of objects in patch KIDS_333p6_m34p1 is : 13260
+Number of objects in patch KIDS_333p8_m29p2 is : 12271
+Number of objects in patch KIDS_333p9_m33p1 is : 16654
+Number of objects in patch KIDS_334p0_m28p2 is : 7215
+Number of objects in patch KIDS_334p1_m32p1 is : 16123
+Number of objects in patch KIDS_334p2_m27p2 is : 11305
+Number of objects in patch KIDS_334p4_m31p2 is : 16222
+Number of objects in patch KIDS_334p5_m35p1 is : 11971
+Number of objects in patch KIDS_334p7_m30p2 is : 14662
+Number of objects in patch KIDS_334p8_m34p1 is : 14114
+Number of objects in patch KIDS_334p9_m29p2 is : 14539
+Number of objects in patch KIDS_335p0_m33p1 is : 15941
+Number of objects in patch KIDS_335p2_m28p2 is : 14146
+Number of objects in patch KIDS_335p3_m32p1 is : 13922
+Number of objects in patch KIDS_335p5_m31p2 is : 17601
+Number of objects in patch KIDS_335p7_m35p1 is : 14487
+Number of objects in patch KIDS_335p8_m30p2 is : 15836
+Number of objects in patch KIDS_336p0_m34p1 is : 15277
+Number of objects in patch KIDS_336p1_m29p2 is : 14396
+Number of objects in patch KIDS_336p2_m33p1 is : 15778
+Number of objects in patch KIDS_336p3_m28p2 is : 13613
+Number of objects in patch KIDS_336p5_m32p1 is : 17262
+Number of objects in patch KIDS_336p7_m31p2 is : 15342
+Number of objects in patch KIDS_336p9_m35p1 is : 13194
+Number of objects in patch KIDS_337p0_m30p2 is : 14105
+Number of objects in patch KIDS_337p2_m29p2 is : 16216
+Number of objects in patch KIDS_337p2_m34p1 is : 14303
+Number of objects in patch KIDS_337p4_m28p2 is : 16429
+Number of objects in patch KIDS_337p4_m33p1 is : 17311
+Number of objects in patch KIDS_337p6_m27p2 is : 9754
+Number of objects in patch KIDS_337p6_m32p1 is : 16885
+Number of objects in patch KIDS_337p9_m31p2 is : 15992
+Number of objects in patch KIDS_338p1_m30p2 is : 14784
+Number of objects in patch KIDS_338p1_m35p1 is : 9889
+Number of objects in patch KIDS_338p4_m29p2 is : 17878
+Number of objects in patch KIDS_338p4_m34p1 is : 17820
+Number of objects in patch KIDS_338p6_m28p2 is : 14988
+Number of objects in patch KIDS_338p6_m33p1 is : 16105
+Number of objects in patch KIDS_339p0_m31p2 is : 16666
+Number of objects in patch KIDS_339p3_m30p2 is : 14776
+Number of objects in patch KIDS_339p3_m35p1 is : 7635
+Number of objects in patch KIDS_339p5_m29p2 is : 14242
+Number of objects in patch KIDS_339p6_m34p1 is : 16272
+Number of objects in patch KIDS_339p7_m28p2 is : 11332
+Number of objects in patch KIDS_339p8_m33p1 is : 15609
+Number of objects in patch KIDS_33p3_m33p1 is : 15223
+Number of objects in patch KIDS_33p4_m30p2 is : 14605
+Number of objects in patch KIDS_33p6_m34p1 is : 17076
+Number of objects in patch KIDS_33p8_m31p2 is : 13570
+Number of objects in patch KIDS_33p9_m28p2 is : 17864
+Number of objects in patch KIDS_340p4_m30p2 is : 15085
+Number of objects in patch KIDS_340p5_m35p1 is : 14631
+Number of objects in patch KIDS_340p6_m29p2 is : 14041
+Number of objects in patch KIDS_340p8_m28p2 is : 14395
+Number of objects in patch KIDS_340p8_m34p1 is : 13571
+Number of objects in patch KIDS_341p0_m33p1 is : 13852
+Number of objects in patch KIDS_341p2_m32p1 is : 17806
+Number of objects in patch KIDS_341p4_m31p2 is : 16012
+Number of objects in patch KIDS_341p6_m30p2 is : 14265
+Number of objects in patch KIDS_341p8_m29p2 is : 15184
+Number of objects in patch KIDS_341p8_m35p1 is : 13523
+Number of objects in patch KIDS_342p0_m34p1 is : 14784
+Number of objects in patch KIDS_342p2_m33p1 is : 12830
+Number of objects in patch KIDS_342p4_m32p1 is : 16810
+Number of objects in patch KIDS_342p5_m31p2 is : 16134
+Number of objects in patch KIDS_342p7_m30p2 is : 13083
+Number of objects in patch KIDS_342p9_m29p2 is : 13977
+Number of objects in patch KIDS_343p0_m35p1 is : 17352
+Number of objects in patch KIDS_343p1_m28p2 is : 15774
+Number of objects in patch KIDS_343p2_m34p1 is : 13874
+Number of objects in patch KIDS_343p4_m33p1 is : 16664
+Number of objects in patch KIDS_343p7_m31p2 is : 11054
+Number of objects in patch KIDS_343p9_m30p2 is : 10975
+Number of objects in patch KIDS_344p1_m29p2 is : 9949
+Number of objects in patch KIDS_344p2_m35p1 is : 16942
+Number of objects in patch KIDS_344p4_m34p1 is : 14654
+Number of objects in patch KIDS_344p6_m33p1 is : 15032
+Number of objects in patch KIDS_344p7_m32p1 is : 16791
+Number of objects in patch KIDS_344p9_m31p2 is : 19046
+Number of objects in patch KIDS_345p0_m30p2 is : 14803
+Number of objects in patch KIDS_345p2_m29p2 is : 14508
+Number of objects in patch KIDS_345p3_m28p2 is : 14448
+Number of objects in patch KIDS_345p4_m35p1 is : 10765
+Number of objects in patch KIDS_345p6_m34p1 is : 15314
+Number of objects in patch KIDS_345p7_m33p1 is : 16931
+Number of objects in patch KIDS_345p9_m32p1 is : 13275
+Number of objects in patch KIDS_346p0_m31p2 is : 14089
+Number of objects in patch KIDS_346p2_m30p2 is : 19072
+Number of objects in patch KIDS_346p3_m29p2 is : 12238
+Number of objects in patch KIDS_346p5_m28p2 is : 13704
+Number of objects in patch KIDS_346p6_m35p1 is : 11962
+Number of objects in patch KIDS_346p8_m34p1 is : 18931
+Number of objects in patch KIDS_346p9_m33p1 is : 17721
+Number of objects in patch KIDS_347p1_m32p1 is : 14207
+Number of objects in patch KIDS_347p2_m31p2 is : 18330
+Number of objects in patch KIDS_347p3_m30p2 is : 16109
+Number of objects in patch KIDS_347p5_m29p2 is : 15588
+Number of objects in patch KIDS_347p8_m35p1 is : 13728
+Number of objects in patch KIDS_348p0_m34p1 is : 18204
+Number of objects in patch KIDS_348p1_m33p1 is : 14803
+Number of objects in patch KIDS_348p2_m32p1 is : 13202
+Number of objects in patch KIDS_348p3_m31p2 is : 12876
+Number of objects in patch KIDS_348p5_m30p2 is : 14880
+Number of objects in patch KIDS_348p6_m29p2 is : 17338
+Number of objects in patch KIDS_348p7_m28p2 is : 7306
+Number of objects in patch KIDS_349p1_m35p1 is : 18075
+Number of objects in patch KIDS_349p2_m34p1 is : 16069
+Number of objects in patch KIDS_349p3_m33p1 is : 14099
+Number of objects in patch KIDS_349p4_m32p1 is : 19087
+Number of objects in patch KIDS_349p5_m31p2 is : 16294
+Number of objects in patch KIDS_349p6_m30p2 is : 14354
+Number of objects in patch KIDS_349p7_m29p2 is : 14092
+Number of objects in patch KIDS_349p8_m28p2 is : 13649
+Number of objects in patch KIDS_34p1_m32p1 is : 20657
+Number of objects in patch KIDS_34p2_m29p2 is : 16575
+Number of objects in patch KIDS_34p5_m30p2 is : 17469
+Number of objects in patch KIDS_34p5_m33p1 is : 16256
+Number of objects in patch KIDS_34p8_m34p1 is : 14805
+Number of objects in patch KIDS_350p3_m35p1 is : 13312
+Number of objects in patch KIDS_350p4_m34p1 is : 16266
+Number of objects in patch KIDS_350p5_m33p1 is : 14687
+Number of objects in patch KIDS_350p6_m32p1 is : 18755
+Number of objects in patch KIDS_350p7_m31p2 is : 14388
+Number of objects in patch KIDS_350p8_m30p2 is : 14222
+Number of objects in patch KIDS_350p9_m29p2 is : 17222
+Number of objects in patch KIDS_351p0_m28p2 is : 15887
+Number of objects in patch KIDS_351p5_m35p1 is : 12865
+Number of objects in patch KIDS_351p6_m34p1 is : 22084
+Number of objects in patch KIDS_351p7_m33p1 is : 16193
+Number of objects in patch KIDS_351p8_m31p2 is : 16452
+Number of objects in patch KIDS_351p8_m32p1 is : 17325
+Number of objects in patch KIDS_351p9_m30p2 is : 20383
+Number of objects in patch KIDS_352p0_m29p2 is : 19254
+Number of objects in patch KIDS_352p1_m28p2 is : 12091
+Number of objects in patch KIDS_352p7_m35p1 is : 17498
+Number of objects in patch KIDS_352p8_m34p1 is : 16889
+Number of objects in patch KIDS_352p9_m32p1 is : 16126
+Number of objects in patch KIDS_352p9_m33p1 is : 14102
+Number of objects in patch KIDS_353p0_m31p2 is : 16634
+Number of objects in patch KIDS_353p1_m30p2 is : 19779
+Number of objects in patch KIDS_353p2_m28p2 is : 19547
+Number of objects in patch KIDS_353p2_m29p2 is : 15366
+Number of objects in patch KIDS_353p9_m35p1 is : 16167
+Number of objects in patch KIDS_354p0_m34p1 is : 15677
+Number of objects in patch KIDS_354p1_m32p1 is : 17354
+Number of objects in patch KIDS_354p1_m33p1 is : 17075
+Number of objects in patch KIDS_354p2_m30p2 is : 13733
+Number of objects in patch KIDS_354p2_m31p2 is : 17565
+Number of objects in patch KIDS_354p3_m29p2 is : 14803
+Number of objects in patch KIDS_354p4_m28p2 is : 11520
+Number of objects in patch KIDS_355p1_m35p1 is : 19127
+Number of objects in patch KIDS_355p2_m33p1 is : 16888
+Number of objects in patch KIDS_355p2_m34p1 is : 18385
+Number of objects in patch KIDS_355p3_m31p2 is : 18166
+Number of objects in patch KIDS_355p3_m32p1 is : 17265
+Number of objects in patch KIDS_355p4_m29p2 is : 15507
+Number of objects in patch KIDS_355p4_m30p2 is : 15277
+Number of objects in patch KIDS_355p5_m28p2 is : 14738
+Number of objects in patch KIDS_356p4_m33p1 is : 17262
+Number of objects in patch KIDS_356p4_m34p1 is : 18249
+Number of objects in patch KIDS_356p4_m35p1 is : 16238
+Number of objects in patch KIDS_356p5_m31p2 is : 19356
+Number of objects in patch KIDS_356p5_m32p1 is : 18940
+Number of objects in patch KIDS_356p6_m28p2 is : 16703
+Number of objects in patch KIDS_356p6_m29p2 is : 14986
+Number of objects in patch KIDS_357p6_m32p1 is : 15595
+Number of objects in patch KIDS_357p6_m33p1 is : 13980
+Number of objects in patch KIDS_357p6_m34p1 is : 16432
+Number of objects in patch KIDS_357p6_m35p1 is : 12521
+Number of objects in patch KIDS_357p7_m29p2 is : 15741
+Number of objects in patch KIDS_357p7_m30p2 is : 18719
+Number of objects in patch KIDS_357p7_m31p2 is : 18603
+Number of objects in patch KIDS_358p8_m30p2 is : 16667
+Number of objects in patch KIDS_358p8_m31p2 is : 16920
+Number of objects in patch KIDS_358p8_m32p1 is : 17033
+Number of objects in patch KIDS_358p8_m33p1 is : 14156
+Number of objects in patch KIDS_358p8_m34p1 is : 16497
+Number of objects in patch KIDS_358p8_m35p1 is : 16663
+Number of objects in patch KIDS_358p9_m28p2 is : 13422
+Number of objects in patch KIDS_358p9_m29p2 is : 13403
+Number of objects in patch KIDS_35p0_m31p2 is : 15841
+Number of objects in patch KIDS_35p3_m29p2 is : 18683
+Number of objects in patch KIDS_35p3_m32p1 is : 18312
+Number of objects in patch KIDS_35p6_m33p1 is : 18154
+Number of objects in patch KIDS_36p0_m34p1 is : 16490
+Number of objects in patch KIDS_36p1_m28p2 is : 17181
+Number of objects in patch KIDS_36p1_m31p2 is : 14591
+Number of objects in patch KIDS_36p5_m32p1 is : 17996
+Number of objects in patch KIDS_36p8_m30p2 is : 15150
+Number of objects in patch KIDS_36p8_m33p1 is : 16522
+Number of objects in patch KIDS_37p2_m28p2 is : 12834
+Number of objects in patch KIDS_37p2_m34p1 is : 14077
+Number of objects in patch KIDS_37p3_m31p2 is : 12521
+Number of objects in patch KIDS_37p6_m29p2 is : 16782
+Number of objects in patch KIDS_37p6_m32p1 is : 18079
+Number of objects in patch KIDS_38p0_m30p2 is : 14998
+Number of objects in patch KIDS_38p0_m33p1 is : 13427
+Number of objects in patch KIDS_38p4_m31p2 is : 15828
+Number of objects in patch KIDS_38p4_m34p1 is : 21335
+Number of objects in patch KIDS_38p7_m29p2 is : 17084
+Number of objects in patch KIDS_38p8_m32p1 is : 16170
+Number of objects in patch KIDS_39p1_m30p2 is : 16286
+Number of objects in patch KIDS_39p2_m33p1 is : 18411
+Number of objects in patch KIDS_39p5_m28p2 is : 18537
+Number of objects in patch KIDS_39p6_m31p2 is : 16373
+Number of objects in patch KIDS_39p9_m29p2 is : 16908
+Number of objects in patch KIDS_3p4_m29p2 is : 13994
+Number of objects in patch KIDS_3p5_m30p2 is : 17934
+Number of objects in patch KIDS_3p5_m31p2 is : 17099
+Number of objects in patch KIDS_3p5_m32p1 is : 14811
+Number of objects in patch KIDS_3p6_m33p1 is : 17307
+Number of objects in patch KIDS_3p6_m34p1 is : 15411
+Number of objects in patch KIDS_3p6_m35p1 is : 17563
+Number of objects in patch KIDS_40p0_m32p1 is : 19628
+Number of objects in patch KIDS_40p3_m30p2 is : 16722
+Number of objects in patch KIDS_40p4_m33p1 is : 15203
+Number of objects in patch KIDS_40p6_m28p2 is : 19543
+Number of objects in patch KIDS_40p8_m31p2 is : 15834
+Number of objects in patch KIDS_40p8_m34p1 is : 10323
+Number of objects in patch KIDS_41p0_m29p2 is : 18056
+Number of objects in patch KIDS_41p2_m32p1 is : 12864
+Number of objects in patch KIDS_41p4_m30p2 is : 16909
+Number of objects in patch KIDS_41p6_m33p1 is : 14299
+Number of objects in patch KIDS_41p8_m28p2 is : 13444
+Number of objects in patch KIDS_41p9_m31p2 is : 15140
+Number of objects in patch KIDS_42p0_m34p1 is : 17531
+Number of objects in patch KIDS_42p2_m29p2 is : 14697
+Number of objects in patch KIDS_42p4_m32p1 is : 12725
+Number of objects in patch KIDS_42p6_m30p2 is : 15508
+Number of objects in patch KIDS_42p8_m33p1 is : 13152
+Number of objects in patch KIDS_43p1_m31p2 is : 16583
+Number of objects in patch KIDS_43p2_m34p1 is : 16765
+Number of objects in patch KIDS_43p3_m29p2 is : 14524
+Number of objects in patch KIDS_43p5_m32p1 is : 16845
+Number of objects in patch KIDS_43p7_m30p2 is : 13472
+Number of objects in patch KIDS_43p8_m35p1 is : 16761
+Number of objects in patch KIDS_44p0_m28p2 is : 15039
+Number of objects in patch KIDS_44p0_m33p1 is : 16653
+Number of objects in patch KIDS_44p3_m31p2 is : 18726
+Number of objects in patch KIDS_44p4_m34p1 is : 12743
+Number of objects in patch KIDS_44p7_m32p1 is : 14793
+Number of objects in patch KIDS_44p9_m27p2 is : 10332
+Number of objects in patch KIDS_44p9_m30p2 is : 17798
+Number of objects in patch KIDS_45p0_m35p1 is : 16128
+Number of objects in patch KIDS_45p1_m28p2 is : 16101
+Number of objects in patch KIDS_45p1_m33p1 is : 12018
+Number of objects in patch KIDS_45p4_m31p2 is : 18497
+Number of objects in patch KIDS_45p6_m29p2 is : 14762
+Number of objects in patch KIDS_45p6_m34p1 is : 16720
+Number of objects in patch KIDS_45p9_m32p1 is : 16364
+Number of objects in patch KIDS_46p0_m27p2 is : 12003
+Number of objects in patch KIDS_46p0_m30p2 is : 17329
+Number of objects in patch KIDS_46p2_m35p1 is : 17732
+Number of objects in patch KIDS_46p3_m28p2 is : 13064
+Number of objects in patch KIDS_46p3_m33p1 is : 14096
+Number of objects in patch KIDS_46p6_m31p2 is : 13308
+Number of objects in patch KIDS_46p7_m29p2 is : 16270
+Number of objects in patch KIDS_46p8_m34p1 is : 16903
+Number of objects in patch KIDS_47p1_m27p2 is : 10746
+Number of objects in patch KIDS_47p1_m32p1 is : 14855
+Number of objects in patch KIDS_47p2_m30p2 is : 12493
+Number of objects in patch KIDS_47p4_m28p2 is : 16998
+Number of objects in patch KIDS_47p4_m35p1 is : 17740
+Number of objects in patch KIDS_47p5_m33p1 is : 18738
+Number of objects in patch KIDS_47p8_m29p2 is : 13234
+Number of objects in patch KIDS_47p8_m31p2 is : 18243
+Number of objects in patch KIDS_48p0_m34p1 is : 16556
+Number of objects in patch KIDS_48p2_m32p1 is : 15014
+Number of objects in patch KIDS_48p3_m30p2 is : 16525
+Number of objects in patch KIDS_48p5_m28p2 is : 16495
+Number of objects in patch KIDS_48p6_m35p1 is : 14551
+Number of objects in patch KIDS_48p7_m33p1 is : 15618
+Number of objects in patch KIDS_48p9_m31p2 is : 17741
+Number of objects in patch KIDS_49p2_m34p1 is : 17679
+Number of objects in patch KIDS_49p3_m27p2 is : 11475
+Number of objects in patch KIDS_49p4_m32p1 is : 13047
+Number of objects in patch KIDS_49p5_m30p2 is : 17004
+Number of objects in patch KIDS_49p7_m28p2 is : 19345
+Number of objects in patch KIDS_49p9_m33p1 is : 15473
+Number of objects in patch KIDS_49p9_m35p1 is : 11657
+Number of objects in patch KIDS_4p5_m28p2 is : 17197
+Number of objects in patch KIDS_4p6_m29p2 is : 19739
+Number of objects in patch KIDS_4p6_m30p2 is : 17585
+Number of objects in patch KIDS_4p7_m31p2 is : 14428
+Number of objects in patch KIDS_4p7_m32p1 is : 19839
+Number of objects in patch KIDS_4p8_m33p1 is : 18807
+Number of objects in patch KIDS_4p8_m34p1 is : 17578
+Number of objects in patch KIDS_50p1_m29p2 is : 16896
+Number of objects in patch KIDS_50p1_m31p2 is : 14151
+Number of objects in patch KIDS_50p4_m34p1 is : 19566
+Number of objects in patch KIDS_50p5_m27p2 is : 13342
+Number of objects in patch KIDS_50p6_m30p2 is : 13100
+Number of objects in patch KIDS_50p6_m32p1 is : 15505
+Number of objects in patch KIDS_50p8_m28p2 is : 15569
+Number of objects in patch KIDS_51p1_m33p1 is : 15367
+Number of objects in patch KIDS_51p1_m35p1 is : 12983
+Number of objects in patch KIDS_51p3_m29p2 is : 17682
+Number of objects in patch KIDS_51p3_m31p2 is : 13901
+Number of objects in patch KIDS_51p6_m27p2 is : 9613
+Number of objects in patch KIDS_51p6_m34p1 is : 18934
+Number of objects in patch KIDS_51p8_m30p2 is : 16337
+Number of objects in patch KIDS_51p8_m32p1 is : 19495
+Number of objects in patch KIDS_51p9_m28p2 is : 14623
+Number of objects in patch KIDS_52p3_m33p1 is : 14876
+Number of objects in patch KIDS_52p3_m35p1 is : 17490
+Number of objects in patch KIDS_52p4_m29p2 is : 17473
+Number of objects in patch KIDS_52p4_m31p2 is : 10265
+Number of objects in patch KIDS_52p7_m27p2 is : 10249
+Number of objects in patch KIDS_52p8_m34p1 is : 13338
+Number of objects in patch KIDS_52p9_m30p2 is : 9461
+Number of objects in patch KIDS_52p9_m32p1 is : 3778
+Number of objects in patch KIDS_53p0_m28p2 is : 11986
+Number of objects in patch KIDS_53p5_m29p2 is : 9302
+Number of objects in patch KIDS_53p5_m33p1 is : 7365
+Number of objects in patch KIDS_53p5_m35p1 is : 10718
+Number of objects in patch KIDS_5p6_m28p2 is : 15245
+Number of objects in patch KIDS_5p7_m29p2 is : 16660
+Number of objects in patch KIDS_5p8_m30p2 is : 16545
+Number of objects in patch KIDS_5p8_m31p2 is : 14193
+Number of objects in patch KIDS_5p9_m32p1 is : 18927
+Number of objects in patch KIDS_5p9_m33p1 is : 16824
+Number of objects in patch KIDS_6p0_m34p1 is : 17567
+Number of objects in patch KIDS_6p8_m28p2 is : 13743
+Number of objects in patch KIDS_6p8_m29p2 is : 15177
+Number of objects in patch KIDS_6p9_m30p2 is : 16562
+Number of objects in patch KIDS_7p0_m31p2 is : 16951
+Number of objects in patch KIDS_7p1_m32p1 is : 16036
+Number of objects in patch KIDS_7p2_m34p1 is : 17132
+Number of objects in patch KIDS_7p9_m28p2 is : 12587
+Number of objects in patch KIDS_8p0_m29p2 is : 16321
+Number of objects in patch KIDS_8p1_m30p2 is : 19225
+Number of objects in patch KIDS_8p2_m31p2 is : 20674
+Number of objects in patch KIDS_8p2_m32p1 is : 13265
+Number of objects in patch KIDS_8p3_m33p1 is : 19593
+Number of objects in patch KIDS_8p4_m34p1 is : 16114
+Number of objects in patch KIDS_9p0_m28p2 is : 15364
+Number of objects in patch KIDS_9p1_m29p2 is : 15528
+Number of objects in patch KIDS_9p2_m30p2 is : 18138
+Number of objects in patch KIDS_9p3_m31p2 is : 18389
+Number of objects in patch KIDS_9p4_m32p1 is : 16663
+Number of objects in patch KIDS_9p5_m33p1 is : 15604

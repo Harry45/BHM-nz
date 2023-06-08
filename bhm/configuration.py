@@ -5,50 +5,59 @@ Code: The main configuration file for the project.
 Project: Inferring the tomographic redshift distribution of the KiDS-1000
 catalogue.
 """
-
+import numpy as np
 from ml_collections.config_dict import ConfigDict
 
 
-def get_config() -> ConfigDict:
+def get_config(experiment: str) -> ConfigDict:
     """The main configuration file for processing and generating the n(z) for KiDS-1000.
+    Args:
+        experiment (str): name of the experiment
 
     Returns:
         ConfigDict: all configurations.
     """
 
     config = ConfigDict()
+    config.experiment = experiment
+
+    # some default values
+    config.ntiles = 5
+
+    # paths
+    config.paths = paths = ConfigDict()
+    paths.fitsfile = "data/catalogue/KiDS_DR4.1_ugriZYJHKs_SOM_gold_WL_cat.fits"
+    paths.tiles = "data/tiles/"
 
     # bands
-    config.band = ['u', 'g', 'r', 'i', 'Z', 'Y', 'J', 'H', 'Ks']
-
-    # flux
-    config.flux = flux = ConfigDict()
-    flux.value_cols = [f'FLUX_GAAP_{b}' for b in config.band]
-    flux.err_cols = [f'FLUXERR_GAAP_{b}' for b in config.band]
-
-    # magnitudes
-    config.mag = mag = ConfigDict()
-    mag.value_cols = [f'MAG_GAAP_{b}' for b in config.band]
-    mag.err_cols = [f'MAGERR_GAAP_{b}' for b in config.band]
-
-    # columns related to BPZ
-    config.bpz_cols = ['Z_B', 'M_0', 'Z_ML', 'Z_B_MIN', 'Z_B_MAX']
-
-    # other important columns
-    config.meta_cols = ['ALPHA_J2000', 'DELTA_J2000', 'e1', 'e2', 'weight']
-
-    # some quantities for size of arrays
-    config.nbpz = len(config.bpz_cols)
-    config.nmeta = len(config.meta_cols)
+    config.band = ["u", "g", "r", "i", "Z", "Y", "J", "H", "Ks"]
     config.nband = len(config.band)
+
+    # column names
+    config.colnames = colnames = ConfigDict()
+    colnames.flux = [f"FLUX_GAAP_{b}" for b in config.band]
+    colnames.fluxerr = [f"FLUXERR_GAAP_{b}" for b in config.band]
+    colnames.mag = [f"MAG_GAAP_{b}" for b in config.band]
+    colnames.magerr = [f"MAGERR_GAAP_{b}" for b in config.band]
+    colnames.extinction = [f"EXTINCTION_{b}" for b in config.band]
+    colnames.maglim = [f"MAG_LIM_{b}" for b in config.band]
+    colnames.theliname = ["THELI_NAME"]
+    colnames.redshift = ["Z_B", "Z_ML"]
+
+    # dtypes
+    config.dtypes = dtypes = ConfigDict()
+    dtypes.flux = np.float32
+    dtypes.fluxerr = np.float32
+    dtypes.mag = np.float16
+    dtypes.magerr = np.float16
+    dtypes.extinction = np.float16
+    dtypes.maglim = np.float16
+    dtypes.theliname = str
+    dtypes.redshift = np.float16
 
     # redshift
     config.redshift = redshift = ConfigDict()
-    redshift.bounds = [(0.1, 0.3),
-                       (0.3, 0.5),
-                       (0.5, 0.7),
-                       (0.7, 0.9),
-                       (0.9, 1.2)]
+    redshift.bounds = [(0.1, 0.3), (0.3, 0.5), (0.5, 0.7), (0.7, 0.9), (0.9, 1.2)]
     redshift.range = [0.0, 2.0]
 
     return config
