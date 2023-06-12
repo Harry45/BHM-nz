@@ -7,14 +7,19 @@ catalogue.
 """
 
 import sys
+import os
 import pandas as pd
 import numpy as np
 from astropy.io import fits
-from hurry.filesize import size
+from hurry.filesize import size  # pylint: disable=import-error
 from ml_collections.config_dict import ConfigDict
+import matplotlib.pylab as plt
 
 # our scripts and functions
 import utils.helpers as hp
+
+plt.rc("text", usetex=True)
+plt.rc("font", **{"family": "sans-serif", "serif": ["Palatino"]})
 
 
 def get_size_mb(dataframe: pd.DataFrame, name: str):
@@ -40,7 +45,7 @@ def extract_data(config: ConfigDict) -> dict:
         dict: a dictionary containing all the important quantities
     """
     fits_image = fits.open(config.paths.fitsfile)
-    data = fits_image[1].data
+    data = fits_image[1].data  # pylint: disable=maybe-no-member
     fits_image.close()
 
     quantities = dict(config.colnames)
@@ -264,3 +269,56 @@ def data_all_bins(config: ConfigDict, agg_data: dict) -> dict:
     for i in range(nbins):
         record_bins[f"BIN_{i}"] = data_per_bin(agg_data, binnumber=i)
     return record_bins
+
+
+def plot_quantities(
+    config: ConfigDict,
+    data: dict,
+    quant="redshift",
+    zmethod="Z_B",
+    xlabel=r"$z$",
+    nbins=20,
+    uselog=False,
+):
+    """
+    Plot the distribution of different quantities in each tomographic bin.
+
+    Args:
+        config (ConfigDict): the main configuration file with all the settings
+        data (dict): the data, which is accessed as: data['BIN_0']['redshift']
+        quant (str, optional): the quantity we want to plot. Defaults to "redshift".
+        zmethod (str, optional): if we choose redshift, we can choose Z_B or Z_ML. Defaults to "Z_B".
+        xlabel (regexp, optional): the x-label. Defaults to r"$z$".
+        nbins (int, optional): the number of bins we want in the histogram. Defaults to 20.
+        uselog (bool, optional): apply log base 10 transformation. Defaults to False.
+    """
+    plt.figure(figsize=(18, 3))
+
+    if uselog:
+        xlabel = r"$\textrm{log}_{10}\;$" + xlabel
+
+    for i in range(len(data)):
+        plt.subplot(1, 5, i + 1)
+        plt.title(f"BIN {i}", fontsize=12)
+        if quant == "redshift":
+            plt.hist(
+                data[f"BIN_{i}"][quant][zmethod].values,
+                density=True,
+                bins=nbins,
+                histtype="step",
+            )
+        else:
+            for j in range(config.nband):
+                values = data[f"BIN_{i}"][quant].values[:, j]
+                if uselog:
+                    values = np.log10(values)
+                plt.hist(values, density=True, bins=nbins, histtype="step")
+        if quant == "redshift":
+            plt.xlim(config.redshift.bounds[i][0], config.redshift.bounds[i][1])
+        plt.xlabel(xlabel, fontsize=12)
+        plt.tick_params(axis="x", labelsize=12)
+        plt.tick_params(axis="y", labelsize=12)
+    os.makedirs("plots", exist_ok=True)
+    plt.savefig(f"plots/tomo_{quant}.pdf", bbox_inches="tight")
+    plt.savefig(f"plots/tomo_{quant}.png", bbox_inches="tight")
+    plt.show()
