@@ -22,7 +22,7 @@ def get_config(experiment: str) -> ConfigDict:
     config.experiment = experiment
 
     # some default values
-    config.ntiles = 5
+    config.ntiles = 10
 
     # paths
     config.paths = paths = ConfigDict()
