@@ -28,6 +28,7 @@ def get_config(experiment: str) -> ConfigDict:
     config.paths = paths = ConfigDict()
     paths.fitsfile = "data/catalogue/KiDS_DR4.1_ugriZYJHKs_SOM_gold_WL_cat.fits"
     paths.tiles = "data/tiles/"
+    paths.bins = "data/bins/"
 
     # bands
     config.band = ["u", "g", "r", "i", "Z", "Y", "J", "H", "Ks"]
