@@ -1,5 +1,6 @@
 # our files/folders to ignore
 bhm/data/
+bhm/likelihood/
 reference/BL-2016/files/
 
 # Byte-compiled / optimized / DLL files
