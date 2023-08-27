@@ -1,4 +1,5 @@
 # our files/folders to ignore
+bhm/.vscode/
 bhm/data/
 bhm/likelihood/
 reference/BL-2016/files/
